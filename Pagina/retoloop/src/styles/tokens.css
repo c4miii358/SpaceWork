@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+
+  /* Base: tinta índigo, no negro puro */
+  --bg: #0c0b1d;
+  --surface: #151429;
+  --surface-2: #1d1c36;
+  --line: #2f2e4d;
+  --text: #f2f1fa;
+  --muted: #b3b2cc;
+  --ink: #0c0b1d;
+
+  /* Acentos: cada cuestionario y categoría usa uno */
+  --violet: #8b7bff;
+  --lime: #c8f542;
+  --pink: #ff5c93;
+  --cyan: #3fd8f0;
+  --amber: #ffbe3d;
+  --accent: var(--violet);
+
+  /* Radios por jerarquía */
+  --r-lg: 28px;
+  --r-md: 18px;
+  --r-sm: 12px;
+  --r-xs: 8px;
+
+  --font-display: 'Bricolage Grotesque Variable', 'Trebuchet MS', system-ui, sans-serif;
+  --font-body: 'Figtree Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --content: 72rem;
+  --narrow: 46rem;
+}
+
+[data-accent='violet'] { --accent: var(--violet); }
+[data-accent='lime'] { --accent: var(--lime); }
+[data-accent='pink'] { --accent: var(--pink); }
+[data-accent='cyan'] { --accent: var(--cyan); }
+[data-accent='amber'] { --accent: var(--amber); }
